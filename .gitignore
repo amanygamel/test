@@ -1,13 +1,3 @@
-*.tar
-*.tar.*
-*.jar
-*.exe
-*.msi
-*.zip
-*.tgz
-*.log
-*.log.*
-*.sig
-
-pkg/
-src/
+# Ignore configuration files with passwords
+config/passwords.ini
+config/*.secret
